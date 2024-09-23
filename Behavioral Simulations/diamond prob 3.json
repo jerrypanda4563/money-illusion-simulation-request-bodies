@@ -1,0 +1,89 @@
+{
+    "demographic_params": {
+      "sex_at_birth": "string",
+      "gender_identity": "string",
+      "age": "string",
+      "marital_status": "string",
+      "sexual_orientation": "string",
+      "nationality": "string",
+      "country_of_residence": "United States of America",
+      "state_province": "string",
+      "city": "string",
+      "rural_or_urban": "string",
+      "type_of_residence": "string",
+      "length_of_residence": "string",
+      "level_of_education": "string",
+      "student_status": "string",
+      "field_of_study": "string",
+      "occupational_area": "string",
+      "annual_income_level": "string",
+      "employment_status": "string",
+      "home_ownership": "string",
+      "ethnicity": "string",
+      "languages_spoken": "string",
+      "religion": "string",
+      "cultural_practices": "string",
+      "immigration_status": "string",
+      "hobbies_and_interests": "string",
+      "shopping_motivations": "string",
+      "shopping_habits": "string",
+      "shopping_channels": "string",
+      "shopping_frequency": "string",
+      "dietary_preferences": "string",
+      "physical_activity_levels": "string",
+      "social_media_usage": "string",
+      "travel_habits": "string",
+      "alcohol_use": "string",
+      "tobacco_and_vape_use": "string",
+      "technology_usage": "string",
+      "family_structure": "string",
+      "household_size": "string",
+      "number_of_children": "string",
+      "pet_ownership": "string",
+      "number_of_pets": "string",
+      "relationship_status": "string",
+      "caregiving_responsibilities": "string",
+      "general_health_status": "string",
+      "disabilities_or_chronic_illnesses": "string",
+      "mental_health_status": "string",
+      "health_insurance_status": "string",
+      "access_to_healthcare": "string",
+      "political_affiliation": "string",
+      "voting_behavior": "string",
+      "political_engagement": "string"
+    },
+    "survey_params": {
+      "name": "Money Illusion",
+      "description": "Imagine that the U. S. experienced unusually high inflation which affected all sectors of the economy. Imagine that within a six-month period all benefits and salaries, as well as the prices of all goods and services, went up by approximately 25%. You now earn and spend 25% more than before.",
+      "questions": [
+        {
+          "type": "multiple choice",
+          "question": "Six months ago, you were planning to buy a leather armchair whose price during the 6-month period went up from $400 to $500. Would you be more or less likely to buy the armchair now?",
+          "choices": [
+            "More",
+            "Less",
+            "Same"
+          ],
+          "answer": null
+        },
+        {
+            "type": "multiple choice",
+            "question": "Six months ago, you were also planning to sell an antique desk you own, whose price during the 6-month period went up from $400 to $500. Would you be more or less likely to sell your desk now?",
+            "choices": [
+              "More",
+              "Less",
+              "Same"
+            ],
+            "answer": null
+          }
+      ]
+    },
+    "agent_params": {
+      "agent_model": "gpt-3.5-turbo",
+      "agent_temperature": 1.21,
+      "existance_date": "1997-05-01",
+      "json_mode": true
+    },
+    "n_of_runs": 3000,
+    "workers": 20
+  }

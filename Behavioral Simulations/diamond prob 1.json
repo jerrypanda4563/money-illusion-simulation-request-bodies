@@ -1,0 +1,96 @@
+{
+    "demographic_params": {
+      "sex_at_birth": "string",
+      "gender_identity": "string",
+      "age": "string",
+      "marital_status": "string",
+      "sexual_orientation": "string",
+      "nationality": "string",
+      "country_of_residence": "United States of America",
+      "state_province": "string",
+      "city": "string",
+      "rural_or_urban": "string",
+      "type_of_residence": "string",
+      "length_of_residence": "string",
+      "level_of_education": "string",
+      "student_status": "string",
+      "field_of_study": "string",
+      "occupational_area": "string",
+      "annual_income_level": "string",
+      "employment_status": "string",
+      "home_ownership": "string",
+      "ethnicity": "string",
+      "languages_spoken": "string",
+      "religion": "string",
+      "cultural_practices": "string",
+      "immigration_status": "string",
+      "hobbies_and_interests": "string",
+      "shopping_motivations": "string",
+      "shopping_habits": "string",
+      "shopping_channels": "string",
+      "shopping_frequency": "string",
+      "dietary_preferences": "string",
+      "physical_activity_levels": "string",
+      "social_media_usage": "string",
+      "travel_habits": "string",
+      "alcohol_use": "string",
+      "tobacco_and_vape_use": "string",
+      "technology_usage": "string",
+      "family_structure": "string",
+      "household_size": "string",
+      "number_of_children": "string",
+      "pet_ownership": "string",
+      "number_of_pets": "string",
+      "relationship_status": "string",
+      "caregiving_responsibilities": "string",
+      "general_health_status": "string",
+      "disabilities_or_chronic_illnesses": "string",
+      "mental_health_status": "string",
+      "health_insurance_status": "string",
+      "access_to_healthcare": "string",
+      "political_affiliation": "string",
+      "voting_behavior": "string",
+      "political_engagement": "string"
+    },
+    "survey_params": {
+      "name": "Diamond P1",
+      "description": "Consider two individuals, Ann and Barbara, who graduated from the same college a year apart. Upon graduation, both took similar jobs with publishing firms. Ann started with a yearly salary of $30,000. During her first year on the job there was no inflation, and in her second year Ann received a 2% ($600) raise in salary. Barbara also started with a yearly salary of $30,000. During her first year on the job there was a 4% inflation, and in her second year Barbara received a 5% ($1500) raise in salary.",
+      "questions": [
+        {
+          "type": "multiple choice",
+          "question": "As they entered their second year on the job, who was doing better in economic terms?",
+          "choices": [
+            "Ann",
+            "Barbara"
+          ],
+          "answer": null
+        },
+        {
+            "type": "multiple choice",
+            "question": "As they entered their second year on the job, who do you think was happier?",
+            "choices": [
+              "Ann",
+              "Barbara"
+            ],
+            "answer": null
+          },
+          {
+            "type": "multiple choice",
+            "question": "As they entered their second year on the job, each received a job offer from another firm. Who do you think was more likely to leave her present position for another job?",
+            "choices": [
+              "Ann",
+              "Barbara"
+            ],
+            "answer": null
+          }
+      ]
+    },
+    "agent_params": {
+      "agent_model": "gpt-3.5-turbo",
+      "agent_temperature": 1.21,
+      "existance_date": "2024-06-11",
+      "json_mode": true
+    },
+    "n_of_runs": 1000,
+    "workers": 20
+  }
